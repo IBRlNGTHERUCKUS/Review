@@ -1,5 +1,5 @@
 * {
-    background-color: rgb(59, 29, 12)
+    background-color: #BC4E99
 }
 h1 {
     font-family: Arial, Helvetica, sans-serif;
@@ -15,8 +15,8 @@ p {
 }
 
 h1, p, li {
-    color: aquamarine;
-    background-color: rgb(81, 54, 22);
+    color: black;
+    background-color: #DCCDE8;
     padding: 12px;
 }
 
@@ -43,23 +43,20 @@ img {
 }
 
 .container {
-    background-color: dimgray;
     border: 5px double black;
     display: flex;
+    background-color: #DCCDE8;
 }
 .heading {
-    background-color: dimgray;
     border: 5px double black;
-    color: hsl(0, 0%, 98%);
     padding-left: 10%;
 }
 
-.container div {
-    background-color: black;
-    color: hsl(0, 0%, 98%);    
+.container div {   
     margin: 5px;
     padding: 5px;
     text-align: center;
+    background-color: #B37BA4;
 }
 
 #item1, #item3 {
