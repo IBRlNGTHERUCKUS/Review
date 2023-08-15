@@ -44,12 +44,9 @@ img {
 
 .container {
     border: 5px double black;
+    margin: 10px;
     display: flex;
     background-color: #DCCDE8;
-}
-.heading {
-    border: 5px double black;
-    padding-left: 10%;
 }
 
 .container div {   
@@ -59,6 +56,20 @@ img {
     background-color: #B37BA4;
 }
 
-#item1, #item3 {
-    flex: 1;
+.horizontal {
+    flex-direction: row;
+}
+
+.vertical {
+    flex-direction: column;
+    height: 200px;
+}
+
+.heading {
+    border: 5px double black;
+    padding-left: 10%;
+}
+
+.item1, .item3 {
+    flex: auto;
 }
