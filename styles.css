@@ -41,3 +41,27 @@ img {
     font-size: 12px;
     font-style: italic;
 }
+
+.container {
+    background-color: dimgray;
+    border: 5px double black;
+    display: flex;
+}
+.heading {
+    background-color: dimgray;
+    border: 5px double black;
+    color: hsl(0, 0%, 98%);
+    padding-left: 10%;
+}
+
+.container div {
+    background-color: black;
+    color: hsl(0, 0%, 98%);    
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+#item1, #item3 {
+    flex: 1;
+}
